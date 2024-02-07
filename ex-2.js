@@ -13,3 +13,9 @@ let getJohnProfile = () => {
 };
 
 // Start coding here
+
+function resultWhenUnsuccess(data) {
+  return console.log(data);
+}
+
+getJohnProfile().catch(resultWhenUnsuccess);
